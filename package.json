@@ -1,0 +1,27 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server --port=8080 --open=public --entry-file=index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/mrizkyy98/landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mrizkyy98/landing-page/issues"
+  },
+  "homepage": "https://gitlab.com/mrizkyy98/landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
