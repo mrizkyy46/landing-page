@@ -1,18 +1,67 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/css/output.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/dist/css/styles.css" rel="stylesheet">
 </head>
 
 <body class="font-sans">
-  <div class="min-h-screen max-h-screen bg-center bg-no-repeat bg-100 bg-background-page1 drop-shadow-xl"></div>
-  <div class="min-h-screen max-h-screen bg-center bg-no-repeat bg-100 bg-background-page2 drop-shadow-xl"></div>
-  <div class="min-h-screen max-h-screen bg-center bg-no-repeat bg-100 bg-background-page3 drop-shadow-xl"></div>
-  <div class="min-h-screen max-h-screen bg-center bg-no-repeat bg-100 bg-background-page4 drop-shadow-xl"></div>
-  <div class="min-h-screen max-h-screen bg-center bg-no-repeat bg-100 bg-background-page5 drop-shadow-xl"></div>
+	<div class="min-h-screen max-h-screen bg-center bg-no-repeat bg-cover bg-background-page1">
+		<nav class="bg-black bg-opacity-60 border-gray-200 px-2 sm:px-4 py-2.8 dark:bg-gray-900">
+			<div class="flex flex-wrap justify-between items-center mx-auto  max-w-screen-xl px-4 md:px-6 py-2.8">
+				<a href="https://flowbite.com/" class="flex items-center">
+					<img src="../dist/assets/icon.ico" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+					<span
+						class="self-center text-xl text-white font-semibold whitespace-nowrap dark:text-white">LOGO</span>
+				</a>
+				<div class="flex md:order-2">
+					<div class="hidden relative md:block">
+						<a href="#" class="mr-6 text-xs font-bold text-white dark:text-white hover:underline">SIGN
+							UP</a>
+						<a href="#" class="text-xs font-bold text-white dark:text-blue-500 hover:underline">LOGIN</a>
+					</div>
+					<button data-collapse-toggle="navbar-search" type="button"
+						class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+						aria-controls="navbar-search" aria-expanded="false">
+						<span class="sr-only">Open menu</span>
+						<svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd"
+								d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+								clip-rule="evenodd"></path>
+						</svg>
+					</button>
+				</div>
+				<div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-search">
+					<div class="relative mt-3 md:hidden">
+						<a href="#" class="mr-6 text-xs font-bold text-white dark:text-white hover:underline">SIGN
+							UP</a>
+						<a href="#" class="text-xs font-bold text-white dark:text-blue-500 hover:underline">LOGIN</a>
+
+					</div>
+					<ul
+						class="flex flex-col mt-4 mr-96 text-xs font-bold text-white md:flex-row md:space-x-8 md:mt-0 md:text-xs md:font-bold">
+						<li class="pr-2">
+							<a href="#" class=" dark:text-white hover:underline" aria-current="page">HOME</a>
+						</li>
+						<li class="pr-2">
+							<a href="#" class=" dark:text-white hover:underline">WORK</a>
+						</li>
+						<li class="pr-2">
+							<a href="#" class=" dark:text-white hover:underline">CONTACT</a>
+						</li>
+						<li class="pr-2">
+							<a href="#" class=" dark:text-white hover:underline">ABOUT ME</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+	</div>
+	<script src="../node_modules/flowbite/dist/flowbite.js"></script>
 </body>
 
 </html>

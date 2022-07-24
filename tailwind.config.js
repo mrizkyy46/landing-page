@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./public/*.{html,js}"],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
         sans: ['Open Sans', 'sans-serif'],
+        neue: 'Bebas Neue',
       },
       backgroundImage: {
         'background-page1': "url('/dist/assets/main-bg.jpg')",
@@ -13,10 +15,12 @@ module.exports = {
         'background-page4': "url('/dist/assets/requirements.png')",
         'background-page5': "url('/dist/assets/top-score-bg.png')",
       },
-      backgroundSize: {
-        '100': "100% 100%",
+      spacing: {
+        '2.8': '0.8rem',
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
