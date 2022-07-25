@@ -4,7 +4,7 @@
   "description": "![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)",
   "main": "index.js",
   "scripts": {
-    "build": "postcss ./src/styles.css -o ./dist/css/styles.css --watch",
+    "build": "postcss ./src/styles.css -o ./dist/css/styles.css",
     "dev": "live-server --port=8080 --open=public --entry-file=index.html"
   },
   "repository": {
