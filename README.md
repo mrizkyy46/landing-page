@@ -1,3 +1,15 @@
+## How to Use
+
+Before you can use this project, you need to install the dependencies.
+1. Git
+2. NodeJs (https://nodejs.org/en/download/)
+
+After you have installed the dependencies, you can run the following command to start the server.
+1. Clone this project
+2. npm install
+3. npm run build
+4. npm run dev
+
 <p>
   <a href="https://tailwindcss.com/#gh-light-mode-only" target="_blank">
     <img src="/dist/images/tailwind-logo-light.svg" alt="Tailwind CSS" width="350" height="70">
