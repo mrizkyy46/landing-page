@@ -4,6 +4,8 @@
   "description": "![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "postcss ./src/styles.css -o ./dist/css/styles.css",
     "dev": "live-server --port=8080 --open=public --entry-file=index.html"
   },
@@ -17,7 +19,7 @@
   "bugs": {
     "url": "https://gitlab.com/mrizkyy98/landing-page/issues"
   },
-  "homepage": "https://gitlab.com/mrizkyy98/landing-page#readme",
+  "homepage": "http://yuribenjamin.github.io/landing-page",
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "flowbite": "^1.5.1",
